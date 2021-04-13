@@ -17,6 +17,12 @@
     "sensio/framework-extra-bundle": "~2.2",
     "fzaninotto/faker": "dev-master"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "git@github.com:Alliera/Propel.git"
+    }
+  ],
   "conflict": {
       "sensio/framework-extra-bundle": ">=2.4"
   },
